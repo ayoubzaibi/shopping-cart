@@ -87,7 +87,7 @@ function deinc (e) {
     var up=Number(tr.querySelector('.unitPrice').innerHTML);
     var price=count*up
     tr.querySelector('.price').innerHTML=price
-    somme()
+    somme()g
     }
     
 
