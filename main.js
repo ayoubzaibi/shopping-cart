@@ -77,7 +77,8 @@ function deinc (e) {
     var div = btn.parentElement;
     console.log(div);
     var count = Number(div.querySelector('p').innerHTML);
-    console.log(count);
+    if (count>0) {
+        console.log(count);
     count--;
     div.querySelector('p').innerHTML = count;
 
@@ -87,6 +88,8 @@ function deinc (e) {
     var price=count*up
     tr.querySelector('.price').innerHTML=price
     somme()
+    }
+    
 
 }
 
